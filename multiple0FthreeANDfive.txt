@@ -1,0 +1,10 @@
+fun main(){
+    //Multiple of 3 and 5 from 1 to 100
+    var a = 0
+    var b = 3
+    var c = 5
+    for(i in 1..100)
+        if(i % b == 0 && i % c == 0){
+          println("FizzBuzz")
+        }
+}

@@ -1,0 +1,5 @@
+fun main(){
+    println("Counting 1 to 100 each on a new line, are:")
+    for(numbers in 1..100)
+        println("$numbers")
+}

@@ -1,0 +1,14 @@
+fun main(){
+    //To display the reverse of a string supplied
+    println("Enter string to be reversed after then Press Enter: ")
+    val stringName = readLine()!!
+
+    var result: String = ""
+    var lastIndex = stringName!!.lastIndex
+
+    while(lastIndex >= 0) {
+        result += stringName[lastIndex]
+        lastIndex--
+    }
+    println("Reversed Result is : ${result.toUpperCase()}")
+}

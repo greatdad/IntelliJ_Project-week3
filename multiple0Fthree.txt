@@ -1,0 +1,10 @@
+fun main(){
+    //Multiple of 3 from 1 to 100 displaying Fizz as result for each multiple
+    var a = 0
+    var b = 3
+    for(i in 1..100)
+        if(i % b == 0){
+            a = a + 3
+            println("Fizz")
+        }
+}
